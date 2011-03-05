@@ -1,0 +1,7 @@
+= Hierarchical agglomerative clustering using graphics processors with CUDA
+
+This sample program shows how to run parallel calculations on NVIDIA graphics processors using CUDA.
+
+== Usage
+* nvcc hc.cu -o hc -lcuda -lcutil -lcudpp64
+* ./hc
